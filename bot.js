@@ -1,11 +1,11 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const myid = [''];// ايدي حسابك
+const myid = ['437589976117673995'];// ايدي حسابك
 const prefix = ['#'];
 
 client.on('ready', () => {
    console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : n3k4a `);
+   console.log(`Credit Farmm - Script By : gostdark `);
    console.log(`----------------`);
    console.log(`Loadinng`);
    console.log(`Loadinng.`);
@@ -71,4 +71,4 @@ if (!rank) return message.reply(' ')
 });
 
 
-client.login(process.env.TOKEN);
+client.login(process.env.BOT_TOKEN);
